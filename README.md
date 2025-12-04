@@ -8,7 +8,7 @@ A modern web application that implements infinite scroll functionality to displa
 
 Experience the infinite scroll functionality in action! Scroll down to see images automatically load as you approach the bottom of the page.
 
-## Features
+## ✨ Features
 
 - ✨ **Infinite Scroll**: Automatically loads more images as you scroll near the bottom of the page
 - 🖼️ **Unsplash Integration**: Fetches high-quality random images from the Unsplash API
@@ -17,14 +17,21 @@ Experience the infinite scroll functionality in action! Scroll down to see image
 - 🎨 **Clean UI**: Minimalist design with smooth user experience
 - 🔗 **Image Links**: Click on any image to view it on Unsplash
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup structure
 - **CSS3**: Modern styling with responsive design
 - **JavaScript (ES6+)**: Async/await for API calls and scroll event handling
 - **Unsplash API**: For fetching random images
 
-## Installation
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- A local web server (optional, for development)
+
+### Installation
 
 1. Clone the repository:
 	```bash
@@ -47,7 +54,7 @@ Experience the infinite scroll functionality in action! Scroll down to see image
 
 4. Open the application:
    - Simply open `index.html` in your web browser
-   - Or use a local development server (recommended):
+   - Or use a local development server (recommended for development):
    ```bash
    # Using Python 3
    python -m http.server 8000
@@ -57,7 +64,7 @@ Experience the infinite scroll functionality in action! Scroll down to see image
    ```
    - Navigate to `http://localhost:8000` in your browser
 
-## Usage
+## 📖 Usage
 
 1. Open the application in your web browser
 2. The initial load will fetch 5 images
@@ -65,7 +72,7 @@ Experience the infinite scroll functionality in action! Scroll down to see image
 4. Click on any image to view it on Unsplash in a new tab
 5. The loader will appear while new images are being fetched
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 infinite-scroll/
@@ -78,7 +85,7 @@ infinite-scroll/
 └── README.md           # Project documentation
 ```
 
-## How It Works
+## 🔄 How It Works
 
 1. **Initial Load**: On page load, the application fetches 5 random images from Unsplash
 2. **Scroll Detection**: A scroll event listener monitors when the user approaches the bottom of the page (within 1000px)
@@ -86,27 +93,45 @@ infinite-scroll/
 4. **Image Display**: Images are dynamically added to the DOM with links to their Unsplash pages
 5. **Loading State**: A loader is shown while images are being fetched and hidden once all images have loaded
 
-## API Configuration
+## 🔑 API Configuration
 
 **Important**: This project requires an Unsplash API key. Make sure to:
 - Keep your API key secure and never commit it to public repositories
 - Respect Unsplash API rate limits
 - Follow Unsplash API [Terms of Service](https://unsplash.com/api-terms)
 
-## Browser Support
+## 🌐 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ashley-desouza/infinite-scroll/issues).
 
-## Author
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
+
+## 👤 Author
 
 **Ashley DeSouza**
+
+- GitHub: [@ashley-desouza](https://github.com/ashley-desouza)
+- LinkedIn: [ashleydesouza](https://www.linkedin.com/in/ashleydesouza/)
+
+## 🙏 Acknowledgments
+
+- [Unsplash API](https://unsplash.com/) for providing the images
+- [Google Fonts](https://fonts.google.com/) for the Nanum Gothic font
 
 ---
 
